@@ -6,6 +6,7 @@ example-
 ->attendance conclusion with detailed information 
 -> assignments management 
 -> sessional marks update
--> sem resukt update by student 
+-> sem result update by student 
 -> therir current status of working on project 
+-> 
 
