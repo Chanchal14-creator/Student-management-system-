@@ -9,6 +9,9 @@
     width: 420px;
     box-shadow: 0px 0px 10px 0px rgb(122, 80, 80);
     margin: auto;
+    border-radius: 10px ;
+    padding:30px;
+    
 }
 
 .nav1 {
@@ -65,9 +68,9 @@ ul {
     outline: none;
     border:2px solid  rgb(122, 80, 80);
     border-radius: 40px;
-    font-size:16px;
     color:white;
     padding : 20px;
+    font-size: 16px;
 }
 #login_button {
     width: 100px;
@@ -103,9 +106,8 @@ ul {
 .users li a {
     padding: 0px 20px;
 }
-.remember-forget label input{
-    accent-color:#ffff;
-    margin-right:4px;
+.remember-forget input{
+    height: 18px;
 }
 .remember-forget a{
     color:rgba(100, 54, 54, 0.578);
@@ -114,10 +116,23 @@ ul {
 .remember-forget a:hover{
     text-decoration:underline;
 }
-.remember-forget{
-    display:flex;
-    flex-direction:row;
-    justify-content: flex-end;
+.remember-forget {
+   display:inline-flex;
+   flex-direction: row;
+   column-gap: 200px;
+   font-size:10px ;
+
+}
+.remember-forget label{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+    width:100px;
+}
+.remember-forget input{
+    height:14px;
+    display:inline-flex;
 }
 .flex-div{
     display:flex;
@@ -144,4 +159,17 @@ ul {
 .register-link a{
     text-decoration:none;
     font-weight: 600;
+}
+.rm{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+.remember-forget a{
+
+}
+.register-link{
+    font-size:14.5px;
+    text-align:center;
+    margin-top:20px;
 }
